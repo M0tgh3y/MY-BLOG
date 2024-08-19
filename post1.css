@@ -42,35 +42,31 @@ body {
     margin-right: 20px;
 }
 
-.div2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 60px;
-    margin-top: 60px;
-    margin-right: 60px;
-    margin-left: 60px;
+.ddiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.div3 {
-
+.div2 {
+    margin: 60px;
+    max-width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
     padding: 20px;
     background-color: rgb(247, 238, 138);
 }
 
-.div4 {
-    display: grid;
-    row-gap: 20px;
-    grid-template-rows: 1fr;
-    grid-template-columns: auto;
-    overflow: hidden;
+.div3 {
+    width: 350px;
+    height: 100px;
+    background-color: rgb(196, 138, 247);
     border-radius: 20px;
-    padding: 20px;
-    background-color: rgb(189, 138, 247);
-}
-
-.post-pic1, .post-pic3{
-    width: 100%;
-    object-fit: cover; 
-
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
