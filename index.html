@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my blog</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">mot <span>MoTaC</span></a>
+            <button class="sub1 js-sub" onclick="sub()"><a href="#">Subscribe</a></button>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">MOT GHEY</h2>
+            <span class="home-subtitle">Welcome to my Blog!</span>
+        </div>
+    </section>
+
+    <section class="about container" id="about">
+        <div class="contentBx">
+            <h2 class="titleText">Somethings about me, you can find here</h2>
+            <p class="title-text">Hello my name is motahare, you can<br>
+                Call me mot or any things you want ...</p>
+            <a href="#" class="btn2">Read more</a>
+        </div>
+        <div>
+            <img src="img/20.jpg" alt="" class="fitBg">
+        </div>
+    </section>
+
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter="all">All</span>
+        <span class="filter-item" data-filter="tech">Music</span>
+        <span class="filter-item" data-filter="food">Me</span>
+        <span class="filter-item" data-filter="news">IDK</span>
+    </div>
+
+    <div class="post container">
+        <!--post1-->
+        <a href="post1.html">
+            <div class="post-box tech">
+                <img src="img/03.jpg" alt="" class="post-img">
+                <h2 class="category">Music</h2>
+                <a href="#" class="post-title">The less I know the better</a>
+                <span class="post-data">8 Aug 2024</span>
+                <p class="post-description">
+                    Tame Impala.<br>
+                    I was doin' fine without you
+                    'Til I saw your face, now I can't erase
+                    Givin' in to all his bullshit
+                    Is this what you want? is this who you are?
+                    I was doin' fine without you
+                    'Til I saw your eyes turn away from mine...</p>
+                <div class="profile">
+                    <img src="img/04.jpg" alt="" class="profile-img">
+                    <span class="profile-name">mot</span>
+                </div>
+            </div>
+        </a>
+
+        <!--post2-->
+        <div class="post-box food">
+            <img src="img/11.jpg" alt="" class="post-img">
+            <h2 class="category">Me</h2>
+            <a href="#" class="post-title">How to kill yourself?</a>
+            <span class="post-data">5 Aug 2024</span>
+            <p class="post-description">Try to be able to do it and stay away from it or don't care about it, well done! You are dead!</p>
+            <div class="profile">
+                <img src="img/04.jpg" alt="" class="profile-img">
+                <span class="profile-name">mot</span>
+            </div>
+        </div>
+
+        <!--post3-->
+        <div class="post-box tech">
+            <img src="img/13.jpg" alt="" class="post-img">
+            <h2 class="category">Music</h2>
+            <a href="#" class="post-title">Ocean Floor</a>
+            <span class="post-data">28 Jul 2024</span>
+            <p class="post-description">He and his friend's.<br>You can also listen to "In the Dark".</p>
+            <div class="profile">
+                <img src="img/04.jpg" alt="" class="profile-img">
+                <span class="profile-name">mot</span>
+            </div>
+        </div>
+
+        <!--post4-->
+        <div class="post-box food">
+            <img src="img/14.jpg" alt="" class="post-img">
+            <h2 class="category">Me</h2>
+            <a href="#" class="post-title">Things I don't tell anyone</a>
+            <span class="post-data">20 Jul 2024</span>
+            <p class="post-description">Even to you...</p>
+            <div class="profile">
+                <img src="img/04.jpg" alt="" class="profile-img">
+                <span class="profile-name">mot</span>
+            </div>
+        </div>
+
+        <!--post5-->
+        <div class="post-box news">
+            <img src="img/08.jpg" alt="" class="post-img">
+            <h2 class="category">IDK</h2>
+            <a href="#" class="post-title">Lady of the moon</a>
+            <span class="post-data">10 Jul 2024</span>
+            <p class="post-description">The Moon is Earth's only natural satellite. It orbits at an average distance of 384,400 km (238,900 mi), about 30 times the diameter of Earth...</p>
+            <div class="profile">
+                <img src="img/04.jpg" alt="" class="profile-img">
+                <span class="profile-name">mot</span>
+            </div>
+        </div>
+
+        <!--post6-->
+        <div class="post-box food">
+            <img src="img/15.jpg" alt="" class="post-img">
+            <h2 class="category">Me</h2>
+            <a href="#" class="post-title">Maybe in another Life, HUH?</a>
+            <span class="post-data">8 Jul 2024</span>
+            <p class="post-description">Fuck Fuck Fuck Fuck Fuck Fuck Fuck Fuck Fuck Fuck Fuck Fuck Fuck Fuck Fuck Fuck.<br>FUCK YOU.</p>
+            <div class="profile">
+                <img src="img/04.jpg" alt="" class="profile-img">
+                <span class="profile-name">mot</span>
+            </div>
+        </div>
+
+        <!--post7-->
+        <div class="post-box news">
+            <img src="img/16.jpg" alt="" class="post-img">
+            <h2 class="category">IDK</h2>
+            <a href="#" class="post-title">Puffer Fish</a>
+            <span class="post-data">29 Jun 2024</span>
+            <p class="post-description">The majority of pufferfish species are toxic, with some among the most poisonous vertebrates in the world. ...</p>
+            <div class="profile">
+                <img src="img/04.jpg" alt="" class="profile-img">
+                <span class="profile-name">mot</span>
+            </div>
+        </div>
+
+        <!--post8-->
+        <div class="post-box tech">
+            <img src="img/17.jpg" alt="" class="post-img">
+            <h2 class="category">Music</h2>
+            <a href="#" class="post-title">Fourth of July</a>
+            <span class="post-data">25 Jun 2024</span>
+            <p class="post-description">Sufjan Stevens.<br>
+                It was night when you died, my firefly<br>
+                What could I have said to raise you from the dead?<br>
+                Oh could I be the sky on the Fourth of July? ...</p>
+            <div class="profile">
+                <img src="img/04.jpg" alt="" class="profile-img">
+                <span class="profile-name">mot</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>About Me</h2>
+                <p>You can find me here:</p>
+                <ul class="sci">
+                    <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                    <li><a href="https://t.me/@M0tGhey"><i class='bx bxl-telegram' ></i></a></li>
+                    <li><a href="https://github.com/" target="_blank"><i class='bx bxl-github'></i></a></li>
+                </ul>
+            </div>
+            <div class="sec contactbx">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>Isfahan<br>Malekshahr</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-envelope'></i></span>
+                        <p><a href="mot13832004@gmail.com">mot13832004@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>

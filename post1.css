@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(76,114,189,0.24);
+    margin: 0;
+}
+
+.div1 {
+    height: 300px;
+    background: url("post1img/01.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.songname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.singername {
+    color: white;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.div2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.div3 {
+
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(247, 238, 138);
+}
+
+.div4 {
+    display: grid;
+    row-gap: 20px;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(189, 138, 247);
+}
+
+.post-pic1, .post-pic3{
+    width: 100%;
+    object-fit: cover; 
+
+}
