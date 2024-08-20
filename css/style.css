@@ -117,7 +117,7 @@ header.shadow .logo {
 .home {
     width: 100%;
     min-height: 440px;
-    background-image: url("img/12.jpg");
+    background: url("../img/banner.jpg");
     display: flex;
     justify-content: center;
     align-items: center;

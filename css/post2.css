@@ -13,9 +13,15 @@ body {
     margin: 0;
 }
 
+p {
+    font-family:"Arabic Typesetting", serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .div1 {
     height: 300px;
-    background: url("post1img/01.jpg");
+    background: url("../img/p2b.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,4 +47,22 @@ body {
     margin: 0;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.ddiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 {
+    margin: 25px;
+    max-width: 850px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding: 20px;
+    background-color: rgb(100, 113, 123);
 }

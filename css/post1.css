@@ -14,7 +14,7 @@ body {
 
 .div1 {
     height: 300px;
-    background: url("post1img/01.jpg");
+    background: url("../img/p1b.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +50,7 @@ body {
 }
 
 .div2 {
-    margin: 60px;
+    margin: 25px;
     max-width: 850px;
     display: flex;
     justify-content: center;
